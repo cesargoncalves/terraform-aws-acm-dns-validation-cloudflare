@@ -1,0 +1,13 @@
+---
+name: docs
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run:
+    uses: cesargoncalves/github-workflows/.github/workflows/terraform-docs.yml@main

@@ -1,0 +1,12 @@
+---
+name: ci
+
+on:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    uses: cesargoncalves/github-workflows/.github/workflows/terraform-ci.yml@main
