@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/cesargoncalves/terraform-aws-acm-dns-validation-cloudflare/compare/v0.2.0...v0.3.0) (2026-01-11)
+
+
+### Features
+
+* renovatebot works v3 ([4ddc694](https://github.com/cesargoncalves/terraform-aws-acm-dns-validation-cloudflare/commit/4ddc6948d25e2c04a85aa414e2559f6fa95cd559))
+
 ## [0.2.0](https://github.com/cesargoncalves/terraform-aws-acm-dns-validation-cloudflare/compare/v0.1.0...v0.2.0) (2026-01-11)
 
 
