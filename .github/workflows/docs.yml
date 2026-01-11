@@ -1,0 +1,15 @@
+---
+name: Docs
+
+on:
+  pull_request:
+    paths:
+      - "**/*.tf"
+      - "**/*.tfvars"
+      - ".terraform-docs.yml"
+
+jobs:
+  call_workflow:
+    uses: cesargoncalves/github-workflows/.github/workflows/terraform-docs.yml@main
+    secrets:
+      AUTOMATION_PAT: ${{ secrets.AUTOMATION_PAT }}
