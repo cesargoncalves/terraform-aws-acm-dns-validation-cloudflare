@@ -26,8 +26,8 @@ module "acm-cloudflare" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 5.100.0 |
-| <a name="provider_cloudflare"></a> [cloudflare](#provider\_cloudflare) | >= 5.15.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.28.0 |
+| <a name="provider_cloudflare"></a> [cloudflare](#provider\_cloudflare) | 5.15.0 |
 
 ## Inputs
 
