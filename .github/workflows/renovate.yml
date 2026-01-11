@@ -6,10 +6,8 @@ on:
   schedule:
     - cron: "0 6 * * 6"
 
-permissions:
-  contents: write
-  pull-requests: write
-
 jobs:
   call_workflow:
     uses: cesargoncalves/github-workflows/.github/workflows/renovate.yml@main
+    secrets:
+      AUTOMATION_PAT: ${{ secrets.AUTOMATION_PAT }}

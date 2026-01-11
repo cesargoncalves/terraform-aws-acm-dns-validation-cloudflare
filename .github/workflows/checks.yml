@@ -4,9 +4,6 @@ name: Checks
 on:
   pull_request:
 
-permissions:
-  contents: read
-
 jobs:
   call_workflow:
     uses: cesargoncalves/github-workflows/.github/workflows/terraform-checks.yml@main
