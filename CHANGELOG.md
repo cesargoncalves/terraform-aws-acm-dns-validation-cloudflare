@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/cesargoncalves/terraform-aws-acm-dns-validation-cloudflare/compare/v0.1.0...v0.2.0) (2026-01-11)
+
+
+### Features
+
+* renovate works ([a42d3f7](https://github.com/cesargoncalves/terraform-aws-acm-dns-validation-cloudflare/commit/a42d3f7fb608338e62a48974aafd63ae39a7ca76))
+
 ## 0.1.0 (2026-01-10)
 
 
