@@ -3,6 +3,10 @@ name: Docs
 
 on:
   pull_request:
+    paths:
+      - "**/*.tf"
+      - "**/*.tfvars"
+      - ".terraform-docs.yml"
 
 jobs:
   call_workflow:
