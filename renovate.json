@@ -10,11 +10,6 @@
   "packageRules": [
     {
       "matchManagers": ["terraform"],
-      "matchDepTypes": ["required_version"],
-      "enabled": false
-    },
-    {
-      "matchManagers": ["terraform"],
       "matchDepTypes": ["required_provider", "module"],
       "rangeStrategy": "bump"
     },
@@ -23,15 +18,13 @@
       "matchDepTypes": ["required_provider", "module"],
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "minor-bump",
-      "automerge": true,
-      "automergeType": "pr"
+      "automerge": false
     },
     {
       "matchManagers": ["terraform"],
       "matchDepTypes": ["required_provider", "module"],
       "matchUpdateTypes": ["major"],
-      "groupName": "bump",
-      "automerge": false
+      "enabled": false
     }
   ]
 }
