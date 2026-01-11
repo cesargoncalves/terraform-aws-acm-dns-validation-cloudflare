@@ -17,7 +17,7 @@
       "matchManagers": ["terraform"],
       "matchDepTypes": ["required_provider", "required_version"],
       "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "minor-bump",
+      "groupName": "bump-minor",
       "automerge": true,
       "automergeType": "pr"
     },
@@ -25,7 +25,7 @@
       "matchManagers": ["terraform"],
       "matchDepTypes": ["required_provider", "required_version"],
       "matchUpdateTypes": ["major"],
-      "groupName": "major-bump",
+      "groupName": "bump",
       "automerge": false
     }
   ]
