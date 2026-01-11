@@ -11,8 +11,12 @@
     {
       "matchManagers": ["terraform"],
       "matchDepTypes": ["required_provider", "required_version"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchManagers": ["terraform"],
+      "matchDepTypes": ["required_provider", "required_version"],
       "matchUpdateTypes": ["minor", "patch"],
-      "rangeStrategy": "bump",
       "groupName": "minor",
       "automerge": true,
       "automergeType": "pr"
@@ -22,7 +26,8 @@
       "matchDepTypes": ["required_provider", "required_version"],
       "matchUpdateTypes": ["major"],
       "rangeStrategy": "bump",
-      "groupName": "major"
+      "groupName": "major",
+      "automerge": false
     }
   ]
 }
